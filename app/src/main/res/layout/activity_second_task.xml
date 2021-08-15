@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:hint="Text"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:hint="TextPersonName"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:hint="Phone" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:hint="Number" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:hint="TextPassword" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:hint="TextEmailAddress" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="time"
+        android:textSize="20dp"
+        android:hint="Time" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:textSize="20dp"
+        android:hint="TextMultiline" />
+
+
+
+</LinearLayout>
